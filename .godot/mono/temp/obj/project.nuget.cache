@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tpMIFyBX3UnNyxXTTKOzRgc11pAXl/091cJjgraVtIcjoT4KrT8RmDwhsUwSTkbQ7jgsmPZegGcQxkbuaPyTHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pc\\Godot\\ShaderTileMap\\ShaderTileMap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\godot.sourcegenerators\\4.0.2\\godot.sourcegenerators.4.0.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\godotsharp\\4.0.2\\godotsharp.4.0.2.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\godotsharpeditor\\4.0.2\\godotsharpeditor.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

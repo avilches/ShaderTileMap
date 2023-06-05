@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://uvw83tee7i5e"]
+
+[ext_resource type="Script" path="res://Scripts/MapShaderRenderer/MapShaderDisplay.cs" id="1"]
+
+[node name="Root" type="Node2D"]
+
+[node name="MapShaderDisplay" type="Node2D" parent="."]
+script = ExtResource("1")
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 355.0
+offset_bottom = 69.0
+scale = Vector2(2, 2)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+text = "Hold RMB and drag mouse to scroll around
+Use mouse wheel to zoom in / out"
