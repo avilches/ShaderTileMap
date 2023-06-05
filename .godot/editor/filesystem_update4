@@ -1,5 +1,0 @@
-res://default_env.tres
-res://Scenes/Main.tscn
-res://Shaders/MapRenderer.gdshader
-res://Scenes/Map/MapShaderChunk.tscn
-res://Scripts/Autoloads/GameManager.cs
